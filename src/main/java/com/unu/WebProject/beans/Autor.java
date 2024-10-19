@@ -11,7 +11,7 @@ public class Autor {
 		this(0, "", "");
 	}
 
-	public Autor(int idAutor, String nacionalidad, String nombre) {
+	public Autor(int idAutor, String nombre, String nacionalidad) {
 		super();
 		this.idAutor = idAutor;
 		this.nacionalidad = nacionalidad;

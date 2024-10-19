@@ -37,7 +37,7 @@ public class AutoresController extends HttpServlet {
 		String operacion = request.getParameter("op");
 		switch (operacion) {
 		case "listar": 
-			//listar();
+			listar(request , response);
 			break;
 		case "nuevo":
 			//nuevo();
